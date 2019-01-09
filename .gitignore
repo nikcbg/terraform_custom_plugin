@@ -1,0 +1,7 @@
+#local vagrant box
+.vagrant/
+
+#terraform
+*.tf
+.terraform*
+terraform*
