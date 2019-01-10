@@ -26,8 +26,8 @@ File name                            | File description
 - Execute `make build` to compile the plugin the plugin from the downloaded repository.
 - Execute `ls -al ~/go/bin/` to list the compiled plugin. 
 - After all this we need to copy the plugin to the required path by executing below commands:
- - `mkdir -p /vagrant/terraform.d/plugins/linux_amd64`
- - `cp ~/go/bin/terraform-provider-extip /vagrant/terraform.d/plugins/linux_amd64/`
+  - `mkdir -p /vagrant/terraform.d/plugins/linux_amd64`
+  - `cp ~/go/bin/terraform-provider-extip /vagrant/terraform.d/plugins/linux_amd64/`
 
 ### Update `main.tf` file and test if it works
 - Add below code to your `main.tf` file so it can use the custom plugin:
@@ -40,8 +40,8 @@ output "external_ip" {
 ```
 
 - After that execute below commands to see if it is working:
- - `terraform init` to initialize the working directory
- - `terraform apply` to apply the desired changes.
+  - `terraform init` to initialize the working directory
+  - `terraform apply` to apply the desired changes.
 - If the commnds are successful the output should be as follow:
 
 ```
