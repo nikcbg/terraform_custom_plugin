@@ -1,7 +1,7 @@
 # terraform_custom_plugin
 
 ### Purpose of the repository 
-- The repository will allow us to run custom plugin locally on a virtual machine. 
+- The repository will allow us to create and run custom plugin locally on a virtual machine. 
 
 #### List of files in the repository
 
