@@ -1,5 +1,6 @@
-resource "null_resource" "example" {
-  provisioner "local-exec" {
-    command = "echo example"
-  }
+data "extip" "external_ip" {}
+
+output "external_ip" {
+  value = "${data.extip.external_ip.ipaddress}"
 }
+
